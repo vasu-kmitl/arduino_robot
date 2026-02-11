@@ -1,3 +1,11 @@
+//********************************************************
+// ROBOT SERIES: Simple Motor Control
+// : Vasu Udompetaikul   
+// : Dept. of Agricultural Engineering, KMITL
+//--------------------------------------------------------
+// L298N Motor Drive - Basic single motor control
+//********************************************************
+
 int pin_A1 = 8;
 int pin_A2 = 9;
 
