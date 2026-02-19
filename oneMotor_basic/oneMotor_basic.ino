@@ -1,6 +1,6 @@
 //******************************************************
 // ROBOT SERIES
-// Simple Motor Control using PWM
+// Basic Motor Control using L298N Module
 // Vasu Udompetaikul   Dept. of Agri Engineering, KMITL
 //******************************************************
 #define M1A  5  // Pin 5 <--> IN1  (Use IN1 & IN2 to control motor M1)
