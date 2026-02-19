@@ -3,7 +3,7 @@
 // Single Motor Control using PWM
 // Vasu Udompetaikul   Dept. of Agri Engineering, KMITL
 //******************************************************
-#define M1A  5  // Pin 5 <--> IN1  (Use IN1 & IN2 to control motor M1)
+#define M1A  5  // Pin 5 <--> IN1  (pins with '~' can be used for PWM output )
 #define M1B  6  // Pin 6 <--> IN2
 
 void setup() {
@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  analogWrite(M1A, 0);  // Forward 0% (Stop)
+  analogWrite(M1A, 0);  // Forward 0% (Stop); 'analogWrite' uses to generate PWM output
   digitalWrite(M1B, LOW);
   delay(3000);
 
