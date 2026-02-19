@@ -16,7 +16,15 @@ void loop() {
   digitalWrite(M1B, LOW);
   delay(3000);
 
+  digitalWrite(M1A, LOW);  // Stop
+  digitalWrite(M1B, LOW);
+  delay(1000);
+
   digitalWrite(M1A, LOW);   // Reverse Rotation
   digitalWrite(M1B, HIGH);
   delay(3000);
+
+  digitalWrite(M1A, LOW);  // Stop
+  digitalWrite(M1B, LOW);
+  delay(1000);
 }
