@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  analogWrite(M1A, HIGH);  // Forward Rotation
+  digitalWrite(M1A, HIGH);  // Forward Rotation
   digitalWrite(M1B, LOW);
   delay(3000);
 
