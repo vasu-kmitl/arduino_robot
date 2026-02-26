@@ -8,7 +8,6 @@ SoftwareSerial BTSerial(A0,A1); // A0(Assigned Rx) <--> HC06-Tx / A1(Assigned Tx
 
 void setup() {
   Serial.begin(9600);
-  while(!Serial);
   BTSerial.begin(9600);
 }
 
